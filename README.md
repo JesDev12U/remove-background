@@ -1,19 +1,20 @@
-# remove-background
-This program can remove the background for a PNG file
+# Quitar Fondo
 
-Only remove the background of the PNG files
+Este programa permite remover el fondo de imágenes en formato PNG.
 
-If you will remove the background on a JPG or JPEG file, you can use this script, but you need change the extension of the file
+## Cómo Usar
 
-# How can I change the extension of a JPG or JPEG file? (Windows 10)
+1.  **Selecciona el archivo PNG de entrada:** Haz clic en el botón "Seleccionar" junto a "Selecciona el archivo" para elegir la imagen PNG a la que deseas quitar el fondo.
+2.  **Selecciona la carpeta de destino:** Haz clic en el botón "Seleccionar" junto a "Selecciona la carpeta destino" para elegir dónde guardar la imagen resultante.
+3.  **Quitar fondo:** Una vez que hayas seleccionado el archivo de entrada y la carpeta de destino, haz clic en el botón "Quitar fondo" para procesar la imagen.
 
-First of all, you need change somes configurations in Windows files. I explain you how you can do this with images.
-<ol>
-  <li>
-    Open the File Explorer and do click on the arrow just below on the close button
-    <img src="https://github.com/JesDev12U/remove-background/assets/119618881/65d6ab4b-5065-4d8f-bef8-3daceeaae1bd"/>
-  </li>
-  <li>Do click on View option and mark the box indicate on the image</li>
-  <img src="https://github.com/JesDev12U/remove-background/assets/119618881/ac6e7d17-a629-45e9-9d5e-d1c1e8973d85"/>
-</ol>
-With this configuration you can use this software. Enjoy it :)
+La imagen sin fondo se guardará en la carpeta especificada con el sufijo "_sin_fondo".
+
+## Mejoras en la Interfaz de Usuario
+
+La interfaz de usuario ha sido significativamente mejorada para ofrecer una experiencia más moderna y amigable:
+
+*   **Widgets Modernizados:** Se han utilizado widgets `ttk` de Tkinter para un aspecto más contemporáneo y estético.
+*   **Diseño Mejorado:** La interfaz ahora utiliza un diseño basado en `grid` para una organización más estructurada y alineación precisa de los elementos.
+*   **Espaciado Consistente:** Se ha añadido espaciado (padding) consistente alrededor de los widgets para mejorar la legibilidad y el atractivo visual.
+*   **Ventana Centrada:** La ventana de la aplicación ahora se inicia automáticamente centrada en la pantalla.
